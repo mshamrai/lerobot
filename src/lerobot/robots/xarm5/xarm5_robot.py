@@ -1,7 +1,7 @@
 from lerobot.cameras import make_cameras_from_configs
 from lerobot.robots import Robot
-from arm.xarm5_robot_config import XArm5RobotConfig
-from arm.xarm5_bus import XArmWrapper
+from lerobot.robots.xarm5.config_xarm5 import XArm5RobotConfig
+from lerobot.robots.xarm5.xarm5_bus import XArmWrapper
 from typing import Any
 import numpy as np
 
